@@ -1,0 +1,27 @@
+# Core Framework
+streamlit>=1.30.0
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-huggingface>=0.0.3
+langchain-text-splitters>=0.2.0
+
+# Vector Store & Embeddings
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.0    # For cross-encoder re-ranking
+
+# LLM Providers (install at least one)
+langchain-openai>=0.1.0        # GPT-4o
+langchain-anthropic>=0.1.0     # Claude Sonnet 4
+langchain-google-genai>=1.0.0  # Gemini 2.0 Flash
+
+# Document Processing
+pypdf>=4.0.0
+
+# Web Search (optional but recommended)
+duckduckgo-search>=4.0.0
+
+# Environment
+python-dotenv>=1.0.0
+
+# Utilities
+numpy>=1.24.0
